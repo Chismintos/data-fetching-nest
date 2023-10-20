@@ -19,11 +19,11 @@ const Navbar = () => {
       {/* Responsive Navbar  */}  
       <Popover className=' hidden sm:flex bg-blue-200 h-20 text-lg font-bold justify-evenly  '>
 
-          <div className=''>
-            <img  src="https://images.vexels.com/media/users/3/319206/isolated/lists/dda922dc54b34944b310af368fbb5137-capybara-with-a-bird-atop-its-back-flat-image.png" 
+          <div className='flex items-center'>
+            <img  src="https://cdn.discordapp.com/attachments/1159699541164036137/1164945821184307330/dda922dc54b34944b310af368fbb5137-capybara-with-a-bird-atop-its-back-flat-image.png?ex=65450f57&is=65329a57&hm=00266bcef7d8088057ac9e76f52e74c563e9ed86ea3e5264e9866cca5aa09b9a&" 
                   alt="logo empresa" 
                   width="90" height="90"
-                  className='p-2'
+                  className=''
                   />
           </div>
 
@@ -50,8 +50,8 @@ const Navbar = () => {
           <AiOutlineMenu />
         </Popover.Button>
 
-        <div className='items pr-5'>
-            <img  src="https://cdn.discordapp.com/attachments/1159699541164036137/1162466839117434890/pngwing.com_1.png?ex=653c0a9c&is=6529959c&hm=578238e8a6648d740ffb9eca6a65a47f34ace77d3844dc578cd0793209b68ea9&" 
+        <div className='flex items-center'>
+            <img  src="https://cdn.discordapp.com/attachments/1159699541164036137/1164945821184307330/dda922dc54b34944b310af368fbb5137-capybara-with-a-bird-atop-its-back-flat-image.png?ex=65450f57&is=65329a57&hm=00266bcef7d8088057ac9e76f52e74c563e9ed86ea3e5264e9866cca5aa09b9a&" 
                   alt="idk citas" 
                   width="72" height="72"
                   className='p-2'
