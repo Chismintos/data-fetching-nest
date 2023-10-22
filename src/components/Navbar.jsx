@@ -51,7 +51,7 @@ const Navbar = () => {
         </Popover.Button>
 
         <div className='flex items-center'>
-            <img  src="https://cdn.discordapp.com/attachments/1159699541164036137/1164945821184307330/dda922dc54b34944b310af368fbb5137-capybara-with-a-bird-atop-its-back-flat-image.png?ex=65450f57&is=65329a57&hm=00266bcef7d8088057ac9e76f52e74c563e9ed86ea3e5264e9866cca5aa09b9a&" 
+            <img  src="https://images.vexels.com/media/users/3/319217/isolated/lists/828739434d6c7701e24c3f6cca3d47bd-capybara-head-flat-image.png" 
                   alt="idk citas" 
                   width="72" height="72"
                   className='p-2'
@@ -68,11 +68,11 @@ const Navbar = () => {
             </div>
             <div className='flex items-center'>
               <BiCalendarEdit className='text-2xl mr-2' />
-              <Link href='/citas'>Agendar cita</Link>
+              <Link href='/fakestoreapi'>Fake Api</Link>
             </div>
             <div className='flex items-center'>
               <LuBadgeInfo className='text-2xl mr-2' />
-              <Link href='/acercade'>Acerca de</Link>
+              <Link href='/dummyapi'>Dummy Api</Link>
             </div>
           </div>
         </Popover.Panel>

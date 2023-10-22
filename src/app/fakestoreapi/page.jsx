@@ -1,6 +1,6 @@
 import { getProductFake } from '@/libs/obtenerProductos';
 import TarjetaProductoFake from '@/components/TarjetaProductoFake';
-const DummyPageApi = async () => {
+const FakePageApi = async () => {
 
     const data = await getProductFake();
     console.log(data);
@@ -18,4 +18,4 @@ const DummyPageApi = async () => {
       </div>
   )
 }
-export default DummyPageApi
+export default FakePageApi

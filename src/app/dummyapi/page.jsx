@@ -3,9 +3,7 @@ import TarjetaProductoDummy from '@/components/TarjetaProductoDummy';
 
 const DummyPageApi = async () => {
 
-    const response = await getProductDummy();
-    const products = response.products; // Accede a la propiedad "products"
-
+    const {products} = await getProductDummy();
     console.log(products);
 
         return (
