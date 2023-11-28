@@ -1,5 +1,6 @@
 import { getProductFake } from '@/libs/obtenerProductos';
 import TarjetaProductoFake from '@/components/TarjetaProductoFake';
+
 const FakePageApi = async () => {
 
     const data = await getProductFake();
@@ -10,8 +11,7 @@ const FakePageApi = async () => {
 
             <div className='p-5'>
               {data.map((item) => (
-                <TarjetaProductoFake item={item} />
-
+                <TarjetaArtista item={item} />
                 ))}
               <div></div>
             </div>
